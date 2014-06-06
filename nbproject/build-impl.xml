@@ -15,7 +15,8 @@ is divided into following sections:
 
 -->
 <project xmlns:ear2="http://www.netbeans.org/ns/j2ee-earproject/2" basedir=".." default="default" name="HelloWorldJSP-impl">
-	<import file="ant-deploy.xml"/>
+	
+    <import file="ant-deploy.xml"/>
     <fail message="Please build using Ant 1.7.1 or higher.">
         <condition>
             <not>
